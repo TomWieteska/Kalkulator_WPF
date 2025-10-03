@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Okienko_dousuniecia"
         mc:Ignorable="d"
-        Title="Calculator" Height="190" Width="200"
+        Title="Calculator" Height="210" Width="200"
         WindowStartupLocation="CenterScreen">
     <Window.Resources>
         <Style TargetType="Button"
@@ -71,34 +71,42 @@
                     Grid.Row="1" 
                     Grid.Column="3"/>
 
-            <Button 
+            <Button
+                Style="{StaticResource myMargin}"
                 Content="1" 
                 Grid.Row="2" />
-            <Button 
+            <Button
+                Style="{StaticResource myMargin}"
                 Content="2" 
                 Grid.Row="2" 
                 Grid.Column="1"/>
-            <Button 
+            <Button
+                Style="{StaticResource myMargin}"
                 Content="3" 
                 Grid.Row="2" 
                 Grid.Column="2"/>
-            <Button 
+            <Button
+                Style="{StaticResource myMargin}"
                 Content="-" 
                 Grid.Row="2" 
                 Grid.Column="3"/>
 
-            <Button 
+            <Button
+                Style="{StaticResource myMargin}"
                 Content="0" 
                 Grid.Row="3" />
-            <Button 
+            <Button
+                Style="{StaticResource myMargin}"
                 Content="." 
                 Grid.Row="3" 
                 Grid.Column="1"/>
-            <Button 
+            <Button
+                Style="{StaticResource myMargin}"
                 Content="=" 
                 Grid.Row="3" 
                 Grid.Column="2"/>
-            <Button 
+            <Button
+                Style="{StaticResource myMargin}"
                 Content="+" 
                 Grid.Row="3" 
                 Grid.Column="3"/>
